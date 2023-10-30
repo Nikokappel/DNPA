@@ -1,0 +1,27 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "Nikolaj"
+    },
+    {
+      "Id": 2,
+      "UserName": "Sune"
+    },
+    {
+      "Id": 3,
+      "UserName": "Lotte"
+    }
+  ],
+  "Todos": [
+    {
+      "Id": 1,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Nikolaj"
+      },
+      "Title": "Test todo",
+      "IsCompleted": false
+    }
+  ]
+}
